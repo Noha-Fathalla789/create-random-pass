@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+label {
+    font-size: 17px;
+}
